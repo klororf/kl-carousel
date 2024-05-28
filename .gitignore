@@ -1,11 +1,11 @@
 
 node_modules
 .angular
+src/app/app.component.html
+src/app/app.component.ts
 tsconfig.
 .DS_Store
 .vscode/
-
 dist/*
 .vscode/launch.json
-src/app/app.component.html
 src/app/app.component.ts
