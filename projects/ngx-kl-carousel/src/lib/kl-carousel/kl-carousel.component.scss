@@ -1,0 +1,28 @@
+.carousel {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  align-content: stretch;
+  gap: 5px;
+  height: calc(100vw * 0.5);
+  max-height: 60vh;
+  .slide {
+    transition: all 0.6s linear;
+    flex: 1 0 25%;
+    flex-grow: 0.5;
+    &.focus {
+      flex: 1 0 50%;
+      flex-grow: 1;
+    }
+    .slide-img {
+      height: calc(100vw * 0.5);
+      max-height: 60vh;
+      img {
+        border-radius: 30px;
+        position: relative !important;
+        object-fit: cover;
+      }
+    }
+  }
+}

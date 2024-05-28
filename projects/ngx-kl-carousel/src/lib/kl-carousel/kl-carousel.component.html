@@ -1,0 +1,9 @@
+<div class="carousel" [style.height]="getHeight()">
+  @for(image of images;track $index){
+  <div  #slide  class="slide" [class.focus]="$index===0">
+    <div class="slide-img" [style.height]="getHeight()">
+      <img fill ngSrc="{{ image }}" />
+    </div>
+  </div>
+  }
+</div>
