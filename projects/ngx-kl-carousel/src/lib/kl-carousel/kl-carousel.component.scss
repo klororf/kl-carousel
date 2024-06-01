@@ -3,13 +3,14 @@
   flex-flow: row;
   flex-wrap: nowrap;
   overflow-x: hidden;
+  overflow-y: hidden;
   align-content: stretch;
-  gap: 5px;
-  height: calc(100vw * 0.5);
+  gap: 50px;
   max-height: 60vh;
+  padding: 2px;
   .slide {
     transition: all 0.6s linear;
-    flex: 1 0 25%;
+    flex: 1 0 20%;
     flex-grow: 0.5;
     &.focus {
       flex: 1 0 50%;
